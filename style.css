@@ -1,0 +1,30 @@
+#board{
+    display: grid;
+
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr)
+}
+
+.box{
+    border: solid 1px black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+align-items: center
+}
+
+#score-board{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.score{
+    border: solid 1px black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+align-items: center
+}
